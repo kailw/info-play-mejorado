@@ -1,0 +1,279 @@
+
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: minmax(100px,150px) 0.1fr 1fr;
+  grid-template-rows: 250px 9fr 0.5fr 0.5fr;  
+  grid-template-areas: 
+  "LOGO LOGO EMPRESA"  
+  "MENU MENU CONTENIDO"
+  "MENU MENU PAGINACION"
+  "FOOTER FOOTER FOOTER"  ;
+  background: rgb(31, 30, 30);
+  font-family: 'Righteous', cursive;
+}
+
+
+/* LOGO */
+.LOGO { 
+    grid-area: LOGO;     
+    background: url('../imagenes/Pac_Man_animated.svg');
+    background-repeat: no-repeat;    
+    background-position: left center;
+    background-size: 80%;    
+    
+
+}
+
+/* EMPRESA */ 
+.EMPRESA { 
+    grid-area: EMPRESA;                           
+    font-family: 'pacfontregular';
+    font-size: 7vw;
+    text-shadow: 6px 2px 1px white;
+    
+}
+
+.amarillo{
+    color: rgb(255,200,0);    
+}
+
+.EMPRESA {
+    display: grid;
+    align-content: center;    
+    
+}
+
+
+/* MENU */
+.MENU { 
+    grid-area: MENU; 
+    position: relative;    
+    top: 40px; left: 40px;
+    text-align: center;        
+
+}
+
+.hoverTitulo {
+    display: grid;
+    justify-content: center;
+}
+
+.menuMover {    
+    position: fixed;    
+    width: 150px;        
+}
+
+.busqueda2, .busqueda {    
+    margin-top: 14px;
+}
+
+.busquedaInput {
+    margin-left: 15px;
+}
+
+/* NAVBAR INVISBLE*/
+.NAVBARE {
+    visibility: hidden;
+    display: none;
+
+}
+
+/* CONTENIDO*/
+
+.CONTENIDO { 
+    margin-top: 2%;
+    grid-area: CONTENIDO; 
+    display: grid;    
+    grid-template-columns: repeat(auto-fill,minmax(400px,400px));      
+    justify-content: center;      
+    grid-gap: 55px 80px;        
+
+}
+
+
+/* PAGINACION */
+
+.PAGINACION{
+    grid-area: PAGINACION;
+    display: grid;
+    margin: 30px;
+    justify-content: center;
+    
+}
+
+
+/* FOOTER */
+
+.FOOTER {
+    grid-area: FOOTER; 
+    margin-left: 18%;
+}
+
+
+
+
+/* ENLACES */
+a {
+    margin-top: 6px;
+}
+
+.menuEnlace:hover {
+    transform: scale(1.1);
+    border-radius: 0.8rem;
+    border: 2px solid white;    
+}
+
+.ESPACIO { 
+    grid-area: ESPACIO; 
+}
+
+
+/* NOTICIAS */
+.noticia{
+    display: grid;
+    grid-template-columns: 85%;
+    grid-template-rows: 100px 300px;     
+    justify-content: center;             
+    height: 500px;     
+    grid-gap: 10%;       
+    background-image: url("../imagenes/pikachu2.jpg");     
+    background-position: center; 
+    grid-template-areas: 
+    "TITULO"
+    "DESCRIPCION"        
+}
+
+
+.noticia2{
+    display: grid;
+    grid-template-columns: 85%;
+    grid-template-rows: 100px 300px; 
+    justify-content: center;     
+    height: 500px;  
+    grid-gap: 10%;   
+    background-image: url("../imagenes/dragon3.png");   
+    background-position: left center; 
+    grid-template-areas: 
+    "TITULO"
+    "DESCRIPCION"        
+}
+.noticia3{
+    display: grid;
+    grid-template-columns: 85%;
+    grid-template-rows: 100px 300px; 
+    justify-content: center;     
+    background-image: url("../imagenes/sunsetdrive.jpg");   
+    background-position:  center center; 
+    height: 500px;  
+    grid-gap: 10%;    
+    grid-template-areas: 
+    "TITULO"
+    "DESCRIPCION"        
+}
+
+.noticia:hover {
+    transform:scale(1.1);    
+    transition: transform 0.3s ease-in-out;
+}
+
+.noticia2:hover {
+    transform:scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+.noticia3:hover {
+    transform:scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.noticiaLink:hover {
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.descripcion {
+    border: 1px solid black;
+    grid-area: DESCRIPCION;   
+    background: black ;  
+    padding: 10px;
+    text-align: justify;
+    color: white;
+    font-size: 17px;
+    border: 1px solid white;
+    opacity: 0.8;
+}  
+
+
+div[class *= "noticia"] {
+    border-radius: 15px;       
+    border: 2px solid yellow;    
+    box-shadow: 4px 2px  #a59f2a  ;    
+    font-family: 'Righteous', cursive;    
+}
+
+div[class *= "titulo"] {
+    border-radius: 15px;
+    border: 1px solid black;
+    grid-area: TITULO; 
+    background:black;
+    box-shadow: 3px 4px yellow  ;        
+    font-weight: bold;
+    color:  #a4a340 ;    
+    font-family: 'Righteous', cursive;   
+    opacity: 0.9;
+}
+
+div[class *= "descr"] {
+    border-radius: 15px;
+}
+
+
+/* MEDIA QUERIES*/
+
+@media (max-width:850px){    
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px auto 9fr 100px; 
+        justify-content: center;
+        grid-template-areas: 
+        "EMPRESA"        
+        "NAVBARE"
+        "CONTENIDO" 
+        "PAGINACION"       
+        "FOOTER";      
+    }
+    .LOGO { 
+        background-image: none;             
+    }
+
+    .EMPRESA { 
+        font-size: 80px;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .NAVBARE {
+        grid-area: NAVBARE;
+        display: block;
+        visibility: visible;
+    }
+
+    .noticia:hover {
+        transform: none;
+    }
+        
+    .noticia2:hover {
+        transform: none;
+    }
+    
+    .noticia3:hover {
+        transform: none;
+    }
+    
+    a:hover {
+        transform: scale(1);        
+    }
+}

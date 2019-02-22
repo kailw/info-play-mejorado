@@ -1,0 +1,18 @@
+<!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://web.resource.org/cc/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="385" height="450" id="svg1417" sodipodi:version="0.32" inkscape:version="0.43" sodipodi:docbase="C:\Documents and Settings\ALBERTcollons\Escritorio" sodipodi:docname="pacman.svg" version="1.0" class="" style="">
+  <defs id="defs1419"></defs>
+  <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="1" inkscape:cx="250.99478" inkscape:cy="211.64628" inkscape:document-units="px" inkscape:current-layer="layer1" inkscape:window-width="1024" inkscape:window-height="749" inkscape:window-x="-4" inkscape:window-y="-4"></sodipodi:namedview>
+  <metadata id="metadata1422">
+    <rdf:rdf>
+      <cc:work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
+      </cc:work>
+    </rdf:rdf>
+  </metadata>
+  <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1">
+    <path sodipodi:type="arc" style="opacity: 1; fill: rgb(242, 240, 0); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-width: 9.07502; stroke-miterlimit: 4; stroke-opacity: 1;" id="path1425" sodipodi:cx="465.71429" sodipodi:cy="69.505043" sodipodi:rx="214.28572" sodipodi:ry="214.28572" d="M 608.07798,229.66418 A 214.28572,214.28572 0 1 1 622.27436,-76.807347 L 465.71429,69.505043 z" sodipodi:start="0.84415396" sodipodi:end="5.5316092" transform="translate(-245.7143,150.8571)" class="AWUfnVyB_0"></path>
+    <path sodipodi:type="arc" style="opacity: 1; fill: rgb(0, 0, 0); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-width: 9.07502; stroke-miterlimit: 4; stroke-opacity: 1;" id="path2314" sodipodi:cx="325" sodipodi:cy="255.36218" sodipodi:rx="30" sodipodi:ry="29" d="M 355,255.36218 A 30,29 0 1 1 354.9929,254.7312 L 325,255.36218 z" transform="matrix(0.652584,0,0,-0.66974,11.9101,303.3885)" sodipodi:start="0" sodipodi:end="6.2614256" class="AWUfnVyB_1"></path>
+  </g>
+<style data-made-with="vivus-instant">.AWUfnVyB_0{stroke-dasharray:1434 1436;stroke-dashoffset:1435;animation:AWUfnVyB_draw 2000ms ease-in-out 0ms forwards;}.AWUfnVyB_1{stroke-dasharray:245 247;stroke-dashoffset:246;animation:AWUfnVyB_draw 2000ms ease-in-out 1000ms forwards;}@keyframes AWUfnVyB_draw{100%{stroke-dashoffset:0;}}@keyframes AWUfnVyB_fade{0%{stroke-opacity:1;}94.44444444444444%{stroke-opacity:1;}100%{stroke-opacity:0;}}</style></svg>
